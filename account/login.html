@@ -36,8 +36,8 @@
       >
         <svg
           id="logo-14"
-          width="50%"
-          height="50%"
+          width="20%"
+          height="20%"
           viewBox="0 0 73 49"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -74,20 +74,23 @@
       </div>
     </header>
 
-    <main>
+    <main class="container min-vh-100 mt-5" >
       <h1>Login</h1>
       <form id="login">
-        <div>
+        <div class="row mb-3">
           <label for="username">Username</label>
-          <input type="text" id="username" minlength="3" />
+          <input type="text" class="form-control" id="username" minlength="3" required/>
         </div>
 
-        <div>
-          <label for="password">Password</label>
-          <input type="password" id="password" minlength="6" />
+        <div class="row mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password" minlength="6" required/>
         </div>
-
-        <button id="loginButton" type="submit">Login</button>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Remember me</label>
+        </div>
+        <button id="loginButton" type="submit" class="btn btn-primary">Login</button>
       </form>
     </main>
 
