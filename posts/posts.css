@@ -1,1 +1,10 @@
 /* Posts Page CSS */
+
+.post {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  .post-author {
+    font-weight: bold;
+  }
