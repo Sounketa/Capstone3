@@ -1,6 +1,5 @@
 /* Posts Page JavaScript */
 
-"use strict";
 
 
 // GET http://microbloglite.us-east-2.elasticbeanstalk.com/api/posts/
