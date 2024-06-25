@@ -17,3 +17,13 @@
     font-size: 1rem;
 }
 
+body {
+    background-color: black;
+  }
+  
+  header {
+    min-height: 50px;
+    min-width: 50px;
+    border-bottom: 5px solid #575353;
+    background-color: #ffffff;
+  }
