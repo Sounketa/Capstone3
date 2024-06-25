@@ -20,24 +20,15 @@
 
     <!-- Run BEFORE page is finished loading (before window.onload - don't add the `defer` attribute): -->
     <script src="auth.js"></script>
-    <!-- <script>
+    <script>
       if (isLoggedIn() === true) {
         window.location.replace("../posts/posts.html");
       }
-    </script> -->
+    </script>
   </head>
   <body>
     <header>
-      <div
-        style="
-          min-height: 50px;
-          min-width: 50px;
-          border-bottom: 5px solid #575353;
-          background-color: #ffffff;
-        "
-      >
           <div class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            
             <svg
           id="logo-70"
           width="10%"
@@ -59,7 +50,6 @@
           ></path>
         </svg>
       </div>
-          </div>    
     </header>
     
     <main class="container mt-5">
@@ -79,7 +69,7 @@
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Remember me</label>
           </div>
-          <a id="loginButton" type="submit" class="btn btn-dark" href="posts.html">Login</a>
+          <a id="loginButton" type="submit" class="btn btn-dark" href="../posts/posts.html">Login</a>
         </div>
       </form>
     </main>
