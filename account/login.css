@@ -8,3 +8,8 @@ header {
     border-bottom: 5px solid #575353;
     background-color: #ffffff;
   }
+
+  .carddiv {
+    width: 30rem; 
+    height: 30rem;
+  }
