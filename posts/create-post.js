@@ -11,7 +11,7 @@ createPostButton.addEventListener("click", (event) => {
   // Create a new post object
   const newPost = {
     text: message,
-    username: "julien", // Replace with the current user's username
+    username: "JBrown", // Replace with the current user's username
   };
 
   // Send post data to server
@@ -19,7 +19,7 @@ createPostButton.addEventListener("click", (event) => {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imp1bGllbiIsImlhdCI6MTcxOTMyOTE5NCwiZXhwIjoxNzE5NDE1NTk0fQ.umn_vcAXQb4acU1yYEzzIiuspNs274m3_lHRSR3exsQ"
+      Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpCcm93biIsImlhdCI6MTcxOTUwMzU3MCwiZXhwIjoxNzE5NTg5OTcwfQ.BcOyjeg0f1og43-7QNLr_ZbCOF0FChCxtq748mftyJI"
     },
     body: JSON.stringify(newPost)
   })

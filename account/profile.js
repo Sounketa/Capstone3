@@ -4,10 +4,10 @@ const profileContainer = document.querySelector("#profile-container");
 const postsContainer = document.querySelector("#posts-container");
 
 // Fetch user data
-fetch("http://microbloglite.us-east-2.elasticbeanstalk.com/api/users/julien", {
+fetch("http://microbloglite.us-east-2.elasticbeanstalk.com/api/users/JBrown", {
   method: "GET",
   headers: {
-    Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imp1bGllbiIsImlhdCI6MTcxOTM0OTAxMywiZXhwIjoxNzE5NDM1NDEzfQ.PyimmYLW5fxKaqw1fIYzXOiwsVImNIdY3oqdonJOFYU"
+    Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpCcm93biIsImlhdCI6MTcxOTUwMzU3MCwiZXhwIjoxNzE5NTg5OTcwfQ.BcOyjeg0f1og43-7QNLr_ZbCOF0FChCxtq748mftyJI"
   }
 })
 .then(response => response.json())
@@ -27,7 +27,7 @@ fetch("http://microbloglite.us-east-2.elasticbeanstalk.com/api/users/julien", {
   fetch(`http://microbloglite.us-east-2.elasticbeanstalk.com/api/users/${userData.username}/posts`, {
     method: "GET",
     headers: {
-      Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imp1bGllbiIsImlhdCI6MTcxOTM0OTAxMywiZXhwIjoxNzE5NDM1NDEzfQ.PyimmYLW5fxKaqw1fIYzXOiwsVImNIdY3oqdonJOFYU"
+      Authorization: "BearereyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpCcm93biIsImlhdCI6MTcxOTUwMzU3MCwiZXhwIjoxNzE5NTg5OTcwfQ.BcOyjeg0f1og43-7QNLr_ZbCOF0FChCxtq748mftyJI"
     }
   })
   .then(response => response.json())
