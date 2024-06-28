@@ -28,27 +28,3 @@ fetch("http://microbloglite.us-east-2.elasticbeanstalk.com/api/posts", {
 
 /* Posts Page JavaScript */
 
-// <!-- HTML button -->
-// <button id="deletePostButton">Delete Post</button>
-
-// <!-- JavaScript code -->
-// <script>
-//   const deletePostButton = document.quearySelector("#deletePostButton");
-
-//   deletePostButton.addEventListener('click', deletePost);
-
-//   function deletePost() {
-//     const postId = 123; // Replace with the actual post ID
-//     const url = `http://microbloglite.us-east-2.elasticbeanstalk.com/api/posts/${postId}`;
-
-//     fetch(url, {
-//       method: 'DELETE',
-//       headers: {
-//         'Content-Type': 'application/json'
-//       }
-//     })
-//     .then(response => response.json())
-//     .then(data => console.log(data))
-//     .catch(error => console.error(error));
-//   }
-// </script>
